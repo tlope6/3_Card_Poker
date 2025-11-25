@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ServerController">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Port:" />
+            <TextField fx:id="portField" prefWidth="80" text="5555" />
+
+            <Button fx:id="startButton" text="Start Server" onAction="#startServer" />
+            <Button fx:id="stopButton" text="Stop Server" onAction="#stopServer" />
+        </HBox>
+    </top>
+
+    <center>
+        <ListView fx:id="logView" />
+    </center>
+
+</BorderPane>

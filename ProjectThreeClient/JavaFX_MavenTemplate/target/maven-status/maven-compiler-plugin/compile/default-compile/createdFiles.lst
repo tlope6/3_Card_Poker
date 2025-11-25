@@ -1,0 +1,11 @@
+client/PokerInfo.class
+client/MessageType.class
+client/ClientApp.class
+client/GamePlayController.class
+client/ClientApp$1.class
+client/MenuController.class
+client/ClientConnection.class
+client/WelcomeController.class
+client/loadingController.class
+client/ScoreSceneController.class
+client/Card.class

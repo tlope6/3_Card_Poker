@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="client.loadingController"
+            style="-fx-background-color: #063f2e;">
+
+    <center>
+        <VBox alignment="CENTER" spacing="25">
+
+            <!-- Cards in a stack (outline behind color) -->
+            <StackPane alignment="CENTER">
+                <ImageView fx:id="outlineImage" fitWidth="350" preserveRatio="true"/>
+                <ImageView fx:id="colorImage" fitWidth="350" preserveRatio="true" opacity="0"/>
+            </StackPane>
+
+            <Label fx:id="loadingLabel" text="Loading..."
+                   style="-fx-text-fill: white; -fx-font-size: 22px;" />
+
+        </VBox>
+    </center>
+
+</BorderPane>
